@@ -1,0 +1,168 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+html {
+    background-color: #fff;
+    color: rgba(230, 240, 243, 0.856);
+    font-size: 25px;
+    font-family: 'Noto', 'Arial';
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    background-image: url(img/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: auto;
+    width: 320px;
+    float: left;
+    top: 31%;
+    left: 31%;
+    transform: translate(-31%, -31%);
+}
+
+h1 {
+    margin-top: 0;
+    color: rgba(230, 240, 243, 0.856);
+    font-size: 200%;
+}
+
+.luis-text {
+    position: absolute;
+    width: 1140px;
+    top: 63%;
+    left: 63%;
+    transform: translate(-63%, -63%);
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 135%
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid cadetblue;
+}
+
+section {
+    color: cadetblue;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.class-feature {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.offers-box {
+    margin-top: 12px;
+    margin-left: 5%;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+*:focus{outline: none;}
+
+
+footer {
+    background-color: azure;
+    color: rgb(51, 134, 134);
+    padding: 50px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: rgba(56, 143, 143, 0.733);
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+      color: rgba(30, 128, 128, 0.822);
+}
+
+footer p { 
+    text-align: center;
+    font-size: 100%;
+}
